@@ -1,0 +1,29 @@
+# Copyright 2017 Carsten Klein
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# user configuration goes here
+
+# Note: PROTO_INC_DIR is defined in gittish-build-protocol/Makefile.common.in
+# add additional protocol include dirs here, e.g.
+# PROTO_INC_DIR += $(WORKSPACE_ROOT)/gittish-core-protocol-organization-common/src
+
+# Note: PROTO_SRC is defined in gittish-build-protocol/Makefile.common.in
+# add protocol sources here, one source per line, e.g.
+PROTO_SRC += gittish/protocol/data_segment.proto
+
+# Note: GRPC_SRC is defined in gittish-build-protocol/Makefile.common.in
+# add service protocol sources here, one source per line, e.g.
+# GRPC_SRC += gittish/protocol/service_organization_id_lookup.proto
+
+# vim: noexpandtab:ts=2:sw=2:

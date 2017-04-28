@@ -1,0 +1,32 @@
+# Copyright 2017 Carsten Klein
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# project specific configuration
+
+# add additional gittish project dependencies here
+GTS_DEPS="gittish-build-common gittish-build-protocol gittish-build-python"
+# add additional debian package build dependencies here
+DPKG_DEPS=""
+# add additional command dependencies here
+CMD_DEPS=""
+# add additional external dependencies here (git submodules)
+EXT_DEPS=""
+# add additional external command dependencies (from git submodules)
+EXT_CMD_DEPS=""
+
+# build functions for externals
+# any external build functions go here, e.g.
+# function build_ext_<name>() { ... }
+
+# vim: expandtab:ts=2:sw=2:
